@@ -35,5 +35,5 @@ ax1 = fig.add_subplot(224, projection='3d')
 lena = biIMFs[2, : , :]
 Z = lena
 ax1.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap='rainbow')
-plt.savefig('3dlena.png',dpi=200)
+plt.savefig('3dlena1.png',dpi=200)
 plt.show()
